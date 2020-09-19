@@ -1,5 +1,6 @@
 .outer-margin{
     margin: 10px;
+    min-width: 1024px;
 }
 .width{
     width: 70%;

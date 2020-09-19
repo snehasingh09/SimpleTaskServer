@@ -53,40 +53,29 @@
             padding: 5px;
         }
     </style> -->
+    <script src="index.js"></script>
     <link rel="stylesheet" href="index.css">
-    <link rel="stylesheet" href="//stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
+    <link rel="stylesheet" href="http://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css"
+        integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
 </head>
 
 <body class="outer-margin">
     <div>
-        <button class="button-1 round" type="button" onclick="alert('Hello world!')">Add a server</button>
-        <button class="button-2 round" type="button" onclick="alert('Hello world!')">Remove a server</button>
+        <button class="button-1 round" type="button" onclick="addServer()">Add a server</button>
+        <button class="button-2 round" type="button" onclick="delServer()">Remove a server</button>
     </div>
     <div>
         <input id="taskInput" class="input-box round" type="number" min="0" value="0">
-        <button class="button-1 round" type="button" onclick="alert('Hello world!')">Add tasks</button>
+        <button class="button-1 round" type="button" onclick="addTask()">Add tasks</button>
     </div>
     <!-- <div class="width">
         <p style="float:right;">number of running task</p>
     </div><br><br> -->
-    <div class="light-grey round width">
-        <div class="container blue round" style="width:25%">25%</div>
+    <div id="running">
     </div>
-    <!-- <div class="width">
-        <p style="float:right;">number of Waiting task</p>
-    </div><br><br> -->
-    <div style="width: 73%; margin-top: 7px;">
-        <span class="fa fa-trash fa-lg round" style="float: right;" aria-hidden="true"></span>
+    <div id="waiting">
     </div>
-    <div class="light-grey round width">
-        <div class="container round" style="width:0px;color: #2196F3;">Waiting...</div>
-    </div>
-    
-    <!-- <div class="width">
-        <p style="float:right;">number of Completed task</p>
-    </div><br><br> -->
-    <div class="light-grey round width">
-        <div class="container blue round" style="width:98.5%">Completed</div>
+    <div id="completed">
     </div>
 </body>
 
