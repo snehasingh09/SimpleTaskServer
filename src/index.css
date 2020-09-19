@@ -1,12 +1,47 @@
-.w3-light-grey{
+.outer-margin{
+    margin: 10px;
+}
+.width{
+    width: 70%;
+}
+.light-grey{
     color: #000 !important;
     background-color: #f1f1f1;
+}
+.round{
     border-radius: 4px;
+    margin-top: 10px;
 }
-.w3-container{
-    padding: 0.01em 16px;
+.container{
+    padding: 8px;
 }
-.w3-blue{
+.blue{
     color: #fff;
     background-color: #2196F3!important;
+}
+.button-1{
+    background-color: #2196F3;
+    border: 2px solid #2196F3;
+    padding: 10px;
+    width: 20%;
+    color: #fff;
+}
+.button-2{
+    background-color: transparent;
+    border: 2px solid #2196F3;
+    padding: 10px;
+    width: 20%;
+    color: #2196F3;
+}
+.input-box{
+    padding: 10px;
+    border: 2px solid #2196F3;
+    width: 18%;
+}
+.fa-trash{
+    color: #2196F3;
+    border: 2px solid #2196F3;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    padding: 5px;
 }

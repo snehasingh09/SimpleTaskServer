@@ -4,7 +4,7 @@
 <head>
     <meta charset="utf-8">
     <title>Home Page</title>
-    <style>
+    <!-- <style>
         .outer-margin{
             margin: 10px;
         }
@@ -52,18 +52,19 @@
             margin-bottom: 5px;
             padding: 5px;
         }
-    </style>
+    </style> -->
+    <link rel="stylesheet" href="index.css">
     <link rel="stylesheet" href="//stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
 </head>
 
 <body class="outer-margin">
     <div>
-        <button class="button-1 round" type="button" onclick="alert('Hello world!')">Click Me!</button>
-        <button class="button-2 round" type="button" onclick="alert('Hello world!')">Click Me!</button>
+        <button class="button-1 round" type="button" onclick="alert('Hello world!')">Add a server</button>
+        <button class="button-2 round" type="button" onclick="alert('Hello world!')">Remove a server</button>
     </div>
     <div>
-        <input class="input-box round" type="number">
-        <button class="button-1 round" type="button" onclick="alert('Hello world!')">Click Me!</button>
+        <input id="taskInput" class="input-box round" type="number" min="0" value="0">
+        <button class="button-1 round" type="button" onclick="alert('Hello world!')">Add tasks</button>
     </div>
     <!-- <div class="width">
         <p style="float:right;">number of running task</p>
