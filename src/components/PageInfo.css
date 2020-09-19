@@ -1,0 +1,10 @@
+@font-face {
+    font-family: 'PageFont';
+    src:  url('./OpenSans-Regular.woff') format('woff');
+ }
+ 
+ .PageInfo {
+     color: #d13131;
+     font-family: 'PageFont';
+     list-style-type: square;
+ }
