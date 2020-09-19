@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <title>Home Page</title>
+    <style>
+        .outer-margin{
+            margin: 10px;
+        }
+        .width{
+            width: 70%;
+        }
+        .light-grey{
+            color: #000 !important;
+            background-color: #f1f1f1;
+        }
+        .round{
+            border-radius: 4px;
+            margin-top: 10px;
+        }
+        .container{
+            padding: 8px;
+        }
+        .blue{
+            color: #fff;
+            background-color: #2196F3!important;
+        }
+        .button-1{
+            background-color: #2196F3;
+            border: 2px solid #2196F3;
+            padding: 10px;
+            width: 20%;
+            color: #fff;
+        }
+        .button-2{
+            background-color: transparent;
+            border: 2px solid #2196F3;
+            padding: 10px;
+            width: 20%;
+            color: #2196F3;
+        }
+        .input-box{
+            padding: 10px;
+            border: 2px solid #2196F3;
+            width: 18%;
+        }
+        .fa-trash{
+            color: #2196F3;
+            border: 2px solid #2196F3;
+            margin-top: 5px;
+            margin-bottom: 5px;
+            padding: 5px;
+        }
+    </style>
+    <link rel="stylesheet" href="//stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
+</head>
+
+<body class="outer-margin">
+    <div>
+        <button class="button-1 round" type="button" onclick="alert('Hello world!')">Click Me!</button>
+        <button class="button-2 round" type="button" onclick="alert('Hello world!')">Click Me!</button>
+    </div>
+    <div>
+        <input class="input-box round" type="number">
+        <button class="button-1 round" type="button" onclick="alert('Hello world!')">Click Me!</button>
+    </div>
+    <!-- <div class="width">
+        <p style="float:right;">number of running task</p>
+    </div><br><br> -->
+    <div class="light-grey round width">
+        <div class="container blue round" style="width:25%">25%</div>
+    </div>
+    <!-- <div class="width">
+        <p style="float:right;">number of Waiting task</p>
+    </div><br><br> -->
+    <div style="width: 73%; margin-top: 7px;">
+        <span class="fa fa-trash fa-lg round" style="float: right;" aria-hidden="true"></span>
+    </div>
+    <div class="light-grey round width">
+        <div class="container round" style="width:0px;color: #2196F3;">Waiting...</div>
+    </div>
+    
+    <!-- <div class="width">
+        <p style="float:right;">number of Completed task</p>
+    </div><br><br> -->
+    <div class="light-grey round width">
+        <div class="container blue round" style="width:98.5%">Completed</div>
+    </div>
+</body>
+
+</html>
